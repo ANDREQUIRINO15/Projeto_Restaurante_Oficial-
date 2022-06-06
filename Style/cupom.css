@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap'); 
+*{
+    margin: 0;
+    font-family: 'Paytone One', sans-serif;
+    list-style: none;
+    text-decoration: none; 
+    /* background-color: #efe2cd; */
+    box-sizing: border-box;
+    }
+
+a{
+        text-decoration: none; 
+        color: #502314;
+}
+
+
+body{
+    background-color: white;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    position:fixed;
+    /* position: fixed; */
+    z-index: 1;
+}
+#menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+    background-color: #f5ebdc;
+}
+
+#menu ul{
+    width: 100%;
+    display: flex;
+    justify-content:space-between; 
+    padding: 0;
+    padding-left: 5%;
+    color: #502314;
+    font-size: 20px;
+}
+#baner{
+    z-index: 1;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    padding-right: 100px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+#info{
+    width:900px;
+    height: 50px;
+    display: flex;
+    padding-left:0;
+}
+#logo{
+    width: 15%;
+    padding-right: 30px;
+}
+
+/* #imgCupon */
+img, svg {
+    vertical-align: middle;
+    width: 100%;
+}
+
+
+
+main h1{
+    color: #502314;
+    font-size: 50px;
+    padding: 40px;
+    padding-left: 200px;
+}   
+#grade{
+    min-height: fit-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 15px;
+    width: 80%;
+    margin: auto;
+}
+  
+.cards{
+    width: fit-content;
+    border-radius: 4%;
+    border: 2px solid #edd4b4;
+    background-color: #efe2cd;
+  }
+.cards img{
+    width: 100%;
+    background-color: #efe2cd;
+    border-radius: 4%;
+}
+
+.descricao{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    height: 12vh;
+    border-radius: 4%;
+}
+.descricao h4{
+    color: rgb(80, 35, 20);
+}
+.descricao span{
+    font-size: 23px;
+    line-height: 1;
+    color: rgb(214, 35, 0);
+}
+.descricao h3{
+    font-size: 50px;
+    color: rgb(214, 35, 0);
+}
+.descricao #cent{
+    position: absolute;
+    top: 1px;
+    right: -20px;
+    color: rgb(214, 35, 0);
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    background-color: #502314;
+}
+#linha{
+    width: 95%;
+    height: 2px;
+    background-color: #fff;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+#logoRodaPe{
+    width: 5%;
+    padding-bottom: 30px;
+    padding-top: 90px;
+}
+#inforcoesRodaPe{
+    width: 100%;
+}
+
+#inforcoesRodaPe ul{
+    padding: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+    list-style: none;
+}
+.gridRodaPe{
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr; 
+    width: 100%;
+    color:#f5ebdc;
+}
+.gridRodaPe2{
+    margin-left: 80px;
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    color: #f5ebdc;
+    width: 100%;
+}
+
+
+#informacoesRodaPe li{
+    width: 100%;
+    padding-top: 20px;
+}
+
+#social{
+    width: 20%;
+    align-items: center;
+
+}
+#social ul{
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+   
+}
+
+#social img{
+    width: 100%;
+}
+
+#social li{
+    margin: auto;
+    height: 40px;
+    width: 40px;
+}
+footer p{
+    color: #f5ebdc;
+}
+#frase{
+    margin-left: 25px;
+    font-size: 20px;
+}
+
+/* .cards span{
+    display: inline-block;
+
+} */
+
+
+
+  
+
+
+/* footer{
+    width: 100%;
+    background-color: rgb(80, 35, 20);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 23% 0 10px 0;
+    font-size: large;
+    margin-top: 10%;
+  } */
+
+

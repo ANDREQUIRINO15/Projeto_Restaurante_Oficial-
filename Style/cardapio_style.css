@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap'); 
+*{
+    margin: 0;
+    font-family: 'Paytone One', sans-serif;
+    list-style: none;
+    text-decoration: none; 
+}
+a{
+    text-decoration: none; 
+    color: #502314;
+}
+body{
+    background-color: #fff;
+
+}
+nav{
+    display: flex;
+    width: 100%;
+    position:fixed; 
+
+    z-index: 1;
+    
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: #efe2cd;
+}
+
+#menu ul{
+    width: 100%;
+    display: flex;
+    justify-content:space-between; 
+    padding: 0;
+    padding-left: 5%;
+    color: #502314;
+    font-size: 20px;
+}
+#baner{
+    z-index: 1;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+#info{
+    width:900px;
+    height: 50px;
+    display: flex;
+    padding-left:0;
+}
+#logo{
+    width: 12%;
+    padding-right: 30px;
+}
+
+#novelacarrosel{
+
+    width: 100%;
+    margin: auto;
+}
+
+#cardapio{
+
+    padding-left: 200px;
+    color: #502314;
+}
+
+#carne{
+  
+    padding-left: 200px;
+    color: #502314;
+}
+#img{
+    display: flex;
+    
+}
+
+#frango{
+    padding-left: 200px;
+    color: #ff8732;
+}
+
+#semCarne{
+    padding-left: 200px;
+    color: #198737;
+
+}
+
+#sobremesas{
+    padding-left: 200px;
+    color: #ffaa00;
+}
+
+#acompanhamentos{
+    padding-left: 200px;
+    color: #d62300;
+
+}
+
+#bebidas{
+    padding-left: 200px;
+    color: #d62300;
+
+}
+
+#kids{
+    padding-left: 200px;
+    color: #d62300
+
+}
+
+#nutricional{
+
+    background-color: #f5ebdc;
+    width: 100%;
+    height: 400px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    background-color: #502314;
+}
+#linha{
+    width: 95%;
+    height: 2px;
+    background-color: #fff;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+#logoRodaPe{
+    width: 5%;
+    padding-bottom: 30px;
+    padding-top: 90px;
+}
+#inforcoesRodaPe{
+    width: 100%;
+}
+
+#inforcoesRodaPe ul{
+    padding: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+    list-style: none;
+}
+.gridRodaPe{
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr; 
+    width: 100%;
+    color:#f5ebdc;
+}
+.gridRodaPe2{
+    margin-left: 80px;
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    color: #f5ebdc;
+    width: 100%;
+}
+
+
+#informacoesRodaPe li{
+    width: 100%;
+    padding-top: 20px;
+}
+
+#social{
+    width: 20%;
+    align-items: center;
+
+}
+#social ul{
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+   
+}
+
+#social img{
+    width: 100%;
+}
+
+#social li{
+    margin: auto;
+    height: 40px;
+    width: 40px;
+}
+footer p{
+    color: #f5ebdc;
+}
+#frase{
+    margin-left: 25px;
+    font-size: 20px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #fff;
+    column-gap:15px;
+    row-gap: 15px;
+    width: 80%;
+    margin: auto;
+}
+
+.grid-item{
+    width: 100%;
+    justify-self: center;
+    background-color: #e4d9c9;
+    border: 1px solid #c0b4a0;
+    border-radius: 9px;
+    padding: 1px;
+    font-size: 30px;
+    text-align: center;
+  
+}
+
+.grid-item img{
+    width: 100%;
+} 
+
+.descricao{
+    justify-content: space-between;
+    align-items:center;
+    background-color: #ffff;
+    color: #502314;
+    height: 12vh;
+}
+#pai{
+    width: 50%;
+    margin: auto;
+    background-color:#502314;
+    margin-top: 2%;
+}
+#logo img{
+    width: 100%;
+    
+}
+.form-label{
+    color:#f5ebdc;
+}

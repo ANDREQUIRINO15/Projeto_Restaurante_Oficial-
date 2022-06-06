@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap'); 
+*{
+    margin: 0;
+    font-family: 'Paytone One', sans-serif;
+    list-style: none;
+    text-decoration: none; 
+    /* background-color:  #f5ebdc; */
+    box-sizing: border-box;
+    }
+
+a{
+        text-decoration: none; 
+        color: #502314;
+}    
+
+
+body{
+    background-color:  #f5ebdc;
+}
+
+
+
+nav{
+    display: flex;
+    width: 100%;
+    position:fixed;
+    /* position: fixed; */
+    z-index: 1;
+}
+#menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+    background-color:#f5ebdc;
+}
+
+#menu ul{
+    width: 100%;
+    display: flex;
+    justify-content:space-between; 
+    padding: 0;
+    padding-left: 5%;
+    color: #502314;
+    font-size: 20px;
+}
+#baner{
+    z-index: 1;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    padding-right: 100px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+#info{
+    width:900px;
+    height: 50px;
+    display: flex;
+    padding-left:0;
+}
+#logo{
+    width: 15%;
+    padding-right: 30px;
+}
+
+
+
+
+#novelacarrosel{
+
+    width: 100%;
+    margin: auto;
+}
+
+
+
+
+
+#pesquisa{
+    margin-bottom: revert;
+    text-align: center;
+    margin-top: 40px;
+    color: #502314;
+}
+#pesquisa2{
+    font-size: larger;
+    color: #502314;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h2{
+    margin-top: 20px;
+    font-size: larger;
+    color: #502314;
+    text-align: center;
+}
+
+#barra{
+    margin: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#barra input{
+    text-align: center;
+}
+.form-control{
+    height: 49px;
+    border: 1px solid #5c5c5c;
+}
+.botao{
+    background-color: #d62300;
+    color: #f5ebdc;
+    border-radius: 10px;
+    height: 49px;
+    max-width: 350px;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 55px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    background-color: #502314;
+}
+#linha{
+    width: 95%;
+    height: 2px;
+    background-color: #fff;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+#logoRodaPe{
+    width: 5%;
+    padding-bottom: 30px;
+    padding-top: 90px;
+}
+#inforcoesRodaPe{
+    width: 100%;
+}
+
+#inforcoesRodaPe ul{
+    padding: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+    list-style: none;
+}
+.gridRodaPe{
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr; 
+    width: 100%;
+    color:#f5ebdc;
+}
+.gridRodaPe2{
+    margin-left: 80px;
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    color: #f5ebdc;
+    width: 100%;
+}
+
+
+#informacoesRodaPe li{
+    width: 100%;
+    padding-top: 20px;
+}
+
+#social{
+    width: 20%;
+    align-items: center;
+
+}
+#social ul{
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+   
+}
+
+#social img{
+    width: 100%;
+}
+
+#social li{
+    margin: auto;
+    height: 40px;
+    width: 40px;
+}
+footer p{
+    color: #f5ebdc;
+}
+#frase{
+    margin-left: 25px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+/* 
+footer{
+    width: 100%;
+    background-color: rgb(80, 35, 20);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 23% 0 10px 0;
+    font-size: large;
+   
+  } */
